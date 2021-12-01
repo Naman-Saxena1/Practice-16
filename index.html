@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios Practice using Vanilla JS</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="./index.js"></script>
+    <h2>Get All Data</h2>
+    <button id="getAllData">Get all data</button>
+    <hr>
+    <h2>Get Specific Data</h2>
+    <input type="number" id="specificPost" placeholder="Enter number">
+    <button id="getSpecificData">Get specific data</button>
+    <hr>
+    <h2>Post Data</h2>
+    <input type="text" id="postTitle" placeholder="Enter Title">
+    <input type="text" id="postBody" placeholder="Enter Body">
+    <input type="number" id="postUserId" placeholder="Enter userId number">
+    <button id="postDataBtn">Post data</button>
+    <hr>
+    <h2>Put Request (Updating Data)</h2>
+    <input type="number" value=1 id="idToUpdate" placeholder="Enter post id to update">
+    <input type="text" id="putTitle" placeholder="Enter Title">
+    <input type="text" id="putBody" placeholder="Enter Body">
+    <input type="number" id="putUserId" placeholder="Enter userId number">
+    <button id="putDataBtn">Put data</button>
+    <hr>
+    <h2>Patch Request (Updating Specific Data)</h2>
+    <input type="number" value=1 id="idToPatch" placeholder="Enter post id to update">
+    <input type="text" id="patchTitle" placeholder="Enter Title">
+    <input type="text" id="patchBody" placeholder="Enter Body">
+    <input type="number" id="patchUserId" placeholder="Enter userId number">
+    <button id="patchDataBtn">Patch data</button>
+    <hr>
+    <h2>Delete Specific Data</h2>
+    <input type="number" id="deletePost" placeholder="Enter number">
+    <button id="deleteSpecificData">Delete specific data</button>
+    <hr>
+    <h2>Filter Specific Data</h2>
+    <input type="number" id="filterPostUserId" placeholder="Enter number">
+    <button id="filterSpecificDataBtn">Filter specific data</button>
+    <hr>
+    <h2>Output Response</h2>
+    <ol id="list-of-items"></ol>
+    <br><br><br><br><br><br><br><br>
+</body>
+</html>
